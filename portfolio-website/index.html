@@ -7,7 +7,7 @@
     <title>Personal-Portfolio-Website</title>
 
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <!-- font awsome icon css -->
     <link rel="stylesheet" href="./css/all.min.css">
@@ -19,15 +19,14 @@
 
     <!-- -------header area starts----------- -->
   
-  <header class="header-area">
+  <header class="header-area" >
     <div class="main-menu">
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <div class="me-auto"></div>
               <ul class="navbar-nav">
                 <li class="nav-item active">
@@ -59,70 +58,68 @@
   </header>  
 <!-- -------header area ends----------- ---->
 <!-- --------------Main Section starts------------ -->
-<main class="site-main">
+<main class="site-main col-lg-12 col-md-12 col-sm-12">
 <!-- =============banner arae start================ -->
 
       <!-- =============banner arae start================ -->
   <section class="site-banner">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-12 site-title">
+        <div class="col-lg-6 col-md-6 col-sm-12 site-title">
           <h3 class="title-text ">Hello</h3>
           <h1 class="title-text text-uppercase">I am Samreen</h1>
           <h4 class="title-text text-uppercase">A Front-End Web Developer</h4>
           <div class="site-buttons">
             <div class="flex-d flex-row flex-wrap">
-              <button type="button" class="btn button primary-button mr-4 text-uppercase">hire me</button>
-              <button type="button" class="btn button secondary-button text-uppercase">Resume</button>
+              <button type="button" class="btn button primary-button mr-4 text-uppercase"><a href="#contact">hire me</a></button>
             </div>
-         </div>
+          </div>
         </div>
-        <div class="col-lg-6 col-md-12 banner-image">
+        <div class="col-lg-6 col-md-12 col-sm-12 banner-image">
           <img src="./img/banner.jpg" alt="banner" class="banner">
         </div>
       </div>
     </div>
     </section>
-     <!--  ========================= About Area ==========================  -->
+     <!--  ========================= About Area ==================== -->
 
   <section class="about-area" id="about">
     <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-6 col-md-12">
+          <div class="col-lg-6 col-md-12 col-sm-12">
             <div class="about-image">
               <img src="./img/about.jpg" alt="About us" class="img-fluid">
             </div>
           </div>
-          <div class="col-lg-6 col-md-12 about-title">
-            <h2 class="text-uppercase pt-5">
+          <div class="col-lg-6 col-md-12 col-sm-12 about-title">
+            <h2 class="text-uppercase pt-1">
              <span>Let me</span>
               <span>introduce</span>
               <span>myself</span>
             </h2>
-          <div class="paragraph py-4 w-75">
+          <div class="paragraph col-lg-6 col-md-12 col-sm-12 ">
               <p class="para">
-                Hello,My name is Samreen Fatima. A Freelance Front-End Web Developer and Designer based in Pakistan. I specialise in creating interactive experiences and function interfaces using HTML, CSS, JAVASCRIPT and REACT.
+                Hello,My name is Samreen Fatima. A Freelance Front-End Web Developer and Designer, based in Pakistan. I specialise in creating interactive experiences and function interfaces using HTML, CSS, JAVASCRIPT and REACT.
               </p>
               <p class="para">
-                I love structure and order and i also stand for quality. I love spending time in fixing little details and optimizing web-pages. I am currently interested in learning more about accessisbility and delving deeper into css and js animation.
+                I love structure and order. I love spending time in fixing little details and optimizing Web-pages. I am currently interested in learning more about accessisbility and delving deeper into CSS and Js animation.
               </p>
             </div>
-            <button type="button" class="btn button primary-button text-uppercase">Download cv</button>
-        </div>
+          </div>
       </div>
     </div>
   </section>
 
-  <!--  ========================= End About Area ==========================  -->
-   <!--  ====================== Start Services Area =============================  -->
+  <!--  ========================= End About Area ===================  -->
+   <!--  ====================== Start Services Area===================  -->
 
   <section class="services-area" id="services">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center services-title">
-          <h1 class="text-uppercase title-text">Services Offers</h1>
+          <h1 class="text-uppercase title-text">Services </h1>
           <p class="para">
-            I offer the following specialized services
+            I offer the following specialized services.
           </p>
         </div>
       </div>
@@ -185,31 +182,31 @@
     </div>
   </section>
 
-<!--  ====================== End Services Area =============================  -->
-<!--  ====================== Skills Area =============================  -->
+<!--  ====================== End Services Area ======================  -->
+<!--  ====================== Skills Area===========================  -->
   <section class="skills-area" id="skills">
     <div class="container">
       <h2 class="text-uppercase title-text text-center" >Skills</h2>      
       <div class="progress mb-4" style="height:25px;">
-        <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">HTML</div>
+        <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">HTML5</div>
       </div>       
       <div class="progress mb-4" style="height:25px;">
-        <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 89%" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100">CSS</div>
+        <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 89%" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100">CSS3</div>
       </div> 
       <div class="progress mb-4" style="height:25px;">
         <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 87%" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
       </div>       
       <div class="progress mb-4" style="height:25px;">
-        <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">React</div>
+        <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Linux</div>
       </div>  
       <div class="progress mb-4" style="height:25px;">
-        <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">Photoshop</div>
+        <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">Python</div>
       </div>       
       <div class="progress mb-4" style="height:25px;">
-        <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 77%" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100">PHP</div>
+        <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 77%" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100">Bootstrap</div>
       </div>
       <div class="progress mb-4" style="height:25px;">
-        <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Linux</div>
+        <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">SAAS</div>
       </div> 
       <div class="progress mb-4" style="height:25px;">
         <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">SEO</div>
@@ -228,25 +225,26 @@
         <h2 class="text-uppercase title-text text-center">Projects</h2> 
         <div class="row">
         <div class="col-md mb-3">
-          <a href="#">
-            <img class="img-fluid img-thumbnail" src="./img/tribute.PNG">
+          <a href="https://github.com/Samreen-2021/Sprint-1--project">
+          <img class="img-fluid img-thumbnail" src="./img/tribute.PNG">
           </a>
         </div> 
         <div class="col-md mb-3">
-          <a href="#">
-            <img class="img-fluid img-thumbnail" src="./img/login form.PNG">
+          <a href="https://github.com/Samreen-2021/Web-Development-Class/tree/main/Class-6-I">
+          <img class="img-fluid img-thumbnail" src="./img/login form.PNG">
           </a>
         </div> 
       </div>
       <div class="row">
         <div class="col-md mb-3">
-          <a href="#">
-            <img class="img-fluid img-thumbnail" src="./img/registration form.PNG">
+          <a href="">
+          <a href="https://github.com/Samreen-2021/Web-Dev-Class-Projects/tree/main/registration-form">
+          <img class="img-fluid img-thumbnail" src="./img/registration form.PNG">
           </a>
         </div> 
         <div class="col-md mb-3">
-          <a href="#">
-            <img class="img-fluid img-thumbnail" src="./img/portfolio.PNG">
+          <a href="https://github.com/Samreen-2021/Web-Dev-Class-Projects/tree/main/Portfolio">
+          <img class="img-fluid img-thumbnail" src="./img/portfolio.PNG">
           </a>
         </div> 
       </div> 
@@ -262,7 +260,7 @@
           <!--Section heading-->
         <h2 class="h1-responsive text-center text-uppercase title-text">Contact</h2>
           <!--Section description-->
-        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly. I will come back to you within a matter of hours to help you.</p>
+        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly. I will come back to you within a matter of hours.</p>
 
         <div class="row">
 
@@ -342,7 +340,7 @@
             </li>
 
             <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-              <p>contact@abc.com</p>
+              <p>determinedlearner2019@gmail.com</p>
             </li>
           </ul>
         </div>
@@ -356,52 +354,26 @@
     </section>
   </main> 
        <!-- footer contact form -->
-      <footer class="bg-light text-center text-white mb-0" id="footer">
+      <footer class="bg-light text-center text-white" id="footer">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
           <!-- Section: Social media -->
           <section class="mb-4">
-            <!-- Facebook -->
-            <a
-              class="btn btn-primary btn-floating m-1"
-              style="background-color: #3b5998;"
-              href="#!"
-              role="button">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-      
+                 
             <!-- Twitter -->
             <a
               class="btn btn-primary btn-floating m-1"
               style="background-color: #55acee;"
-              href="#!"
+              href="https://twitter.com/home?lang=en"
               role="button">
               <i class="fab fa-twitter"></i>
             </a>
-      
-            <!-- Google -->
-            <a
-              class="btn btn-primary btn-floating m-1"
-              style="background-color: #dd4b39;"
-              href="#!"
-              role="button">
-              <i class="fab fa-google"></i>
-            </a>
-      
-            <!-- Instagram -->
-            <a
-              class="btn btn-primary btn-floating m-1"
-              style="background-color: #ac2bac;"
-              href="#!"
-              role="button">
-              <i class="fab fa-instagram"></i
-            ></a>
       
             <!-- Linkedin -->
             <a
               class="btn btn-primary btn-floating m-1"
               style="background-color: #0082ca;"
-              href="#!"
+              href="https://www.linkedin.com/feed/"
               role="button"
               ><i class="fab fa-linkedin-in"></i>
             </a>
@@ -409,7 +381,7 @@
             <a
               class="btn btn-primary btn-floating m-1"
               style="background-color: #333333;"
-              href="#!"
+              href="https://github.com/Samreen-2021"
               role="button">
               <i class="fab fa-github"></i>
             </a>
@@ -421,9 +393,10 @@
      
           <!-- --------------Main Section ends------------ -->
 
-    <!-- jquery js file -->
-    <script src="./js/jquery.3.6.0.js"></script>
+  
+   
     <!-- bootstrao js file -->
-    <script src="./js/script.js"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
